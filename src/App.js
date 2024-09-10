@@ -6,6 +6,10 @@ import EnableDisableButton from './components/EnableDisableButton';
 import TwoWayBinding from './components/TwoWayBinding';
 import AddChildComponent from './components/AddChildComponent';
 import SumOfTwoNumbers from './components/SumOfTwoNumbers';
+import Counter from './components/Counter';
+import SearchFilter from './components/SearchFilter';
+import DataGridComponent from './components/DataGridComponent';
+import TaskList from './components/TaskList';
 
 function App() {
   return (
@@ -18,6 +22,11 @@ function App() {
       <TwoWayBinding />
       <AddChildComponent />
       <SumOfTwoNumbers />
+      <Counter />
+      <SearchFilter />
+      <DataGridComponent />
+      <h1>Task List with Drag and Drop</h1>
+      <TaskList/>
     </div>
   );
 }
